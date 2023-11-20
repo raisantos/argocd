@@ -9,7 +9,7 @@ spec:
   project: test-rai
   source:
     repoURL: https://apache.github.io/superset
-    targetRevision: 2.1.0
+    targetRevision: 0.10.1
     chart: superset
     helm:
       version: v3
