@@ -1,12 +1,12 @@
 apiVersion: "argoproj.io/v1alpha1"
 kind: Application
 metadata:
-  name: test-argo
+  name: test-argo-rai-superset
   namespace: argocd
   finalizers:
   - resources-finalizer.argocd.argoproj.io
 spec:
-  project: test-rai
+  project: test-argo-rai-superset
   source:
     repoURL: https://apache.github.io/superset
     targetRevision: 0.10.1
